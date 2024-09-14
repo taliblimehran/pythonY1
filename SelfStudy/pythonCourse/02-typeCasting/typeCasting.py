@@ -6,19 +6,19 @@ age = 29
 gpa = 4.17
 is_student = True
 
-# gpa = int(gpa)
-#
-# print(gpa)
+gpa = int(gpa)
 
-# age = float(age)
-#
-# print(age)
+print(gpa)
 
-# age = str(age)
-#
-# age += "1"
-#
-# print(age)
+age = float(age)
+
+print(age)
+
+age = str(age)
+
+age += "1"
+
+print(age)
 
 name = bool(name)
 
