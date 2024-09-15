@@ -27,7 +27,9 @@ def main():
         grade = 5
 
     print(f"Total course points are {total_course_points}")
-    print(f"{student_name} received the grade {grade} from the course {course_code} with the total points of {total_course_points}")
-
+    if grade == 0:
+        print(f"{student_name} did not pass the course {course_code} with the total points being {total_course_points}")
+    else:
+        print(f"{student_name} received the grade {grade} from the course {course_code} with the total points of {total_course_points}")
 
 main()
